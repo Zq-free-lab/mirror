@@ -1,0 +1,30 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+/build
+
+# 环境变量 —— 敏感，切勿提交（保留 .env.example 供他人参考）
+.env
+.env.local
+.env*.local
+!.env.example
+
+# 调试 / 体验产物（不进仓库）
+/.playwright-mcp/
+/mirror-*.png
+/review-*.png
+/v2-*.png
+/canvas-*.txt
+/r4-*.png
+*.tsbuildinfo
+
+# 系统 / 日志
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vercel
